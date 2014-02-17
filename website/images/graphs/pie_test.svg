@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="600 100 360 200">
+  <g id="scruffy_graph">
+    <g id="background" transform="translate(0.0, 0.0)">
+      <defs>
+        <linearGradient id="BackgroundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="5%" stop-color="black"/>
+          <stop offset="95%" stop-color="#4A465A"/>
+        </linearGradient>
+      </defs>
+      <rect width="600.0" height="360.0" x="0" y="0" fill="url(#BackgroundGradient)"/>
+    </g>
+    <g id="graphs" transform="translate(-90.0, 43.2)">
+      <g id="component_graphs_graph_0" class="graph_layer">
+        <path d="M270.0,158.4 L390.517881744922,197.558633527193 A126.72,126.72 0, 0, 1, 350.21533814666 256.499224900185 Z" stroke="none" fill="#FDD84E"/>
+        <text x="395.524558539747" y="253.735493633756" font-size="19.008" font-family="" fill="white" text-anchor="middle">9%</text>
+        <path d="M270.0,158.4 L350.21533814666,256.499224900185 A126.72,126.72 0, 0, 1, 165.396201216877 86.8737553052029 Z" stroke="none" fill="#72AE6E"/>
+        <text x="167.178139964731" y="279.935804390038" font-size="19.008" font-family="" fill="white" text-anchor="middle">45%</text>
+        <path d="M270.0,158.4 L165.396201216877,86.8737553052029 A126.72,126.72 0, 0, 1, 378.516549113481 92.9621136611107 Z" stroke="none" fill="#D1695E"/>
+        <text x="274.342347307893" y="15.9020127897742" font-size="19.008" font-family="" fill="white" text-anchor="middle">31%</text>
+        <path d="M270.0,158.4 L378.516549113481,92.9621136611107 A126.72,126.72 0, 0, 1, 390.517881744922 197.558633527193 Z" stroke="none" fill="#8A6EAF"/>
+        <text x="421.072806604042" y="150.570010246405" font-size="19.008" font-family="" fill="white" text-anchor="middle">13%</text>
+      </g>
+    </g>
+    <g id="title" transform="translate(30.0, 7.2)">
+      <text class="title" x="270.0" y="25.2" font-size="25.2" font-family="" fill="white" stroke="none" stroke-width="0" text-anchor="middle">Favourite Snacks</text>
+    </g>
+    <g id="legend" transform="translate(360.0, 54.0)">
+      <rect x="0" y="0.0" width="12.672" height="12.672" fill="#FDD84E"/>
+      <text x="25.344" y="15.2064" font-size="20.2752" font-family="" style="color: white" fill="white">Apple</text>
+      <rect x="0" y="25.344" width="12.672" height="12.672" fill="#72AE6E"/>
+      <text x="25.344" y="40.5504" font-size="20.2752" font-family="" style="color: white" fill="white">Banana</text>
+      <rect x="0" y="50.688" width="12.672" height="12.672" fill="#D1695E"/>
+      <text x="25.344" y="65.8944" font-size="20.2752" font-family="" style="color: white" fill="white">Orange</text>
+      <rect x="0" y="76.032" width="12.672" height="12.672" fill="#8A6EAF"/>
+      <text x="25.344" y="91.2384" font-size="20.2752" font-family="" style="color: white" fill="white">Taco</text>
+    </g>
+  </g>
+</svg>
