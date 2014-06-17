@@ -55,7 +55,11 @@ module Scruffy::Layers
       @relevant_data      = options.delete(:relevant_data) || true
       @points             = options.delete(:points) || []
       @points.extend Scruffy::Helpers::PointContainer unless @points.kind_of? Scruffy::Helpers::PointContainer
-      
+      options[:stroke_width] ||= 1
+      options[:dots] ||= false
+      options[:shadow] ||= false
+      options[:style] ||= false
+      options[:relativestroke] ||= false
       @options            = options
     end
   
